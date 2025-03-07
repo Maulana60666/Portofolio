@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portofolio Pribadi">
     <title>Portofolio - Maulana Abdul Fathah</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -15,21 +16,7 @@
     <div class="line right"></div>
 
     <!-- Navbar -->
-    <nav>
-        <div class="container">
-            <ul>  
-                <li class="name"><a href="#about">Maulana Abdul Fathah</a></li>
-                <li><a href="#about">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container">
+    <div class="container">
             <h1>Portfolio Website</h1>
             <img src="image/pp.jpg" alt="Foto Profil" />
         </div>
@@ -119,55 +106,223 @@
             </div>
         </div>
     </section>
- <!-- Certificates -->
- <section id="certificates">
+    
+    <!-- Certificates -->
+    <section id="certificates">
+        <div class="container">
+            <h2>Image</h2>
+
+            <div class="certificate-list">
+
+                <!-- Certificate 1 -->
+                <div class="certificate-item">
+                    <h3>Cyber Security Essentials</h3>
+                    <div class="gallery">
+                        <button class="prev" onclick="prevSlideCert(0)">&#10094;</button>
+                        <div class="gallery-wrapper">
+                            <div class="gallery-slide">
+                                <img src="image/fotinet1.jpg" alt="Cyber Security Essentials - 1">
+                                <img src="cert2.jpg" alt="Cyber Security Essentials - 2">
+                                <img src="cert3.jpg" alt="Cyber Security Essentials - 2">
+                            </div>
+                        </div>
+                        <button class="next" onclick="nextSlideCert(0)">&#10095;</button>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+<!-- Certificates -->
+<!-- Certificates -->
+<section id="certificates">
     <div class="container">
-        <h2>Certificates</h2>
+        <h2>Image</h2>
 
-        <div class="certificate-list">
+        <div class="certificates-slider">
+            <button class="slider-btn prev" onclick="prevCertificateRow()">&#10094;</button>
+            
+            <div class="certificates-container">
+                <div class="certificates-wrapper">
+                    <!-- Row 1 (Certificates 1-2) -->
+                    <div class="certificate-row">
+                        <!-- Certificate 1 -->
+                        <div class="certificate-item">
+                            <h3>Cyber Security Essentials</h3>
+                            <div class="gallery">
+                                <button class="prev" onclick="prevSlideCert(0)">&#10094;</button>
+                                <div class="gallery-wrapper">
+                                    <div class="gallery-slide">
+                                        <img src="cert1.jpg" alt="Cyber Security Essentials - 1">
+                                        <img src="cert2.jpg" alt="Cyber Security Essentials - 2">
+                                        <img src="cert3.jpg" alt="Cyber Security Essentials - 3">
+                                    </div>
+                                </div>
+                                <button class="next" onclick="nextSlideCert(0)">&#10095;</button>
+                            </div>
+                        </div>
 
-            <!-- Certificate 1 -->
-            <div class="certificate-item">
-                <h3>Cyber Security Essentials</h3>
-                <div class="gallery">
-                    <button class="prev" onclick="prevSlideCert(0)">&#10094;</button>
-                    <div class="gallery-wrapper">
-                        <div class="gallery-slide">
-                            <img src="cert1.jpg" alt="Cyber Security Essentials - 1">
-                            <img src="cert2.jpg" alt="Cyber Security Essentials - 2">
-                            <img src="cert3.jpg" alt="Cyber Security Essentials - 2">
+                        <!-- Certificate 2 -->
+                        <div class="certificate-item">
+                            <h3>Python for Data Science</h3>
+                            <div class="gallery">
+                                <button class="prev" onclick="prevSlideCert(1)">&#10094;</button>
+                                <div class="gallery-wrapper">
+                                    <div class="gallery-slide">
+                                        <img src="cert3.jpg" alt="Python for Data Science - 1">
+                                        <img src="cert4.jpg" alt="Python for Data Science - 2">
+                                    </div>
+                                </div>
+                                <button class="next" onclick="nextSlideCert(1)">&#10095;</button>
+                            </div>
                         </div>
                     </div>
-                    <button class="next" onclick="nextSlideCert(0)">&#10095;</button>
-                </div>
-                <p>Certification in Cyber Security Essentials by Cisco.</p>
-            </div>
 
-            <!-- Certificate 2 -->
-            <div class="certificate-item">
-                <h3>Python for Data Science</h3>
-                <div class="gallery">
-                    <button class="prev" onclick="prevSlideCert(1)">&#10094;</button>
-                    <div class="gallery-wrapper">
-                        <div class="gallery-slide">
-                            <img src="cert3.jpg" alt="Python for Data Science - 1">
-                            <img src="cert4.jpg" alt="Python for Data Science - 2">
+                    <!-- Row 2 (Certificates 3-4) -->
+                    <div class="certificate-row">
+                        <!-- Certificate 3 -->
+                        <div class="certificate-item">
+                            <h3>Network Security</h3>
+                            <div class="gallery">
+                                <button class="prev" onclick="prevSlideCert(2)">&#10094;</button>
+                                <div class="gallery-wrapper">
+                                    <div class="gallery-slide">
+                                        <img src="cert1.jpg" alt="Network Security - 1">
+                                        <img src="cert2.jpg" alt="Network Security - 2">
+                                    </div>
+                                </div>
+                                <button class="next" onclick="nextSlideCert(2)">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <!-- Certificate 4 -->
+                        <div class="certificate-item">
+                            <h3>Web Development</h3>
+                            <div class="gallery">
+                                <button class="prev" onclick="prevSlideCert(3)">&#10094;</button>
+                                <div class="gallery-wrapper">
+                                    <div class="gallery-slide">
+                                        <img src="cert3.jpg" alt="Web Development - 1">
+                                        <img src="cert4.jpg" alt="Web Development - 2">
+                                    </div>
+                                </div>
+                                <button class="next" onclick="nextSlideCert(3)">&#10095;</button>
+                            </div>
                         </div>
                     </div>
-                    <button class="next" onclick="nextSlideCert(1)">&#10095;</button>
-                </div>
-                <p>Certification in Python for Data Science by IBM.</p>
-            </div>
 
+                    <!-- Row 3 (Certificates 5-6) -->
+                    <div class="certificate-row">
+                        <!-- Certificate 5 -->
+                        <div class="certificate-item">
+                            <h3>Cloud Computing</h3>
+                            <div class="gallery">
+                                <button class="prev" onclick="prevSlideCert(4)">&#10094;</button>
+                                <div class="gallery-wrapper">
+                                    <div class="gallery-slide">
+                                        <img src="cert1.jpg" alt="Cloud Computing - 1">
+                                        <img src="cert2.jpg" alt="Cloud Computing - 2">
+                                    </div>
+                                </div>
+                                <button class="next" onclick="nextSlideCert(4)">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <!-- Certificate 6 -->
+                        <div class="certificate-item">
+                            <h3>Linux Administration</h3>
+                            <div class="gallery">
+                                <button class="prev" onclick="prevSlideCert(5)">&#10094;</button>
+                                <div class="gallery-wrapper">
+                                    <div class="gallery-slide">
+                                        <img src="cert3.jpg" alt="Linux Administration - 1">
+                                        <img src="cert4.jpg" alt="Linux Administration - 2">
+                                    </div>
+                                </div>
+                                <button class="next" onclick="nextSlideCert(5)">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 4 (Certificates 7-8) -->
+                    <div class="certificate-row">
+                        <!-- Certificate 7 -->
+                        <div class="certificate-item">
+                            <h3>Ethical Hacking</h3>
+                            <div class="gallery">
+                                <button class="prev" onclick="prevSlideCert(6)">&#10094;</button>
+                                <div class="gallery-wrapper">
+                                    <div class="gallery-slide">
+                                        <img src="cert1.jpg" alt="Ethical Hacking - 1">
+                                        <img src="cert2.jpg" alt="Ethical Hacking - 2">
+                                    </div>
+                                </div>
+                                <button class="next" onclick="nextSlideCert(6)">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <!-- Certificate 8 -->
+                        <div class="certificate-item">
+                            <h3>IT Security</h3>
+                            <div class="gallery">
+                                <button class="prev" onclick="prevSlideCert(7)">&#10094;</button>
+                                <div class="gallery-wrapper">
+                                    <div class="gallery-slide">
+                                        <img src="cert3.jpg" alt="IT Security - 1">
+                                        <img src="cert4.jpg" alt="IT Security - 2">
+                                    </div>
+                                </div>
+                                <button class="next" onclick="nextSlideCert(7)">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 5 (Certificates 9-10) -->
+                    <div class="certificate-row">
+                        <!-- Certificate 9 -->
+                        <div class="certificate-item">
+                            <h3>Database Administration</h3>
+                            <div class="gallery">
+                                <button class="prev" onclick="prevSlideCert(8)">&#10094;</button>
+                                <div class="gallery-wrapper">
+                                    <div class="gallery-slide">
+                                        <img src="cert1.jpg" alt="Database Administration - 1">
+                                        <img src="cert2.jpg" alt="Database Administration - 2">
+                                    </div>
+                                </div>
+                                <button class="next" onclick="nextSlideCert(8)">&#10095;</button>
+                            </div>
+                        </div>
+
+                        <!-- Certificate 10 -->
+                        <div class="certificate-item">
+                            <h3>Cloud Security</h3>
+                            <div class="gallery">
+                                <button class="prev" onclick="prevSlideCert(9)">&#10094;</button>
+                                <div class="gallery-wrapper">
+                                    <div class="gallery-slide">
+                                        <img src="cert3.jpg" alt="Cloud Security - 1">
+                                        <img src="cert4.jpg" alt="Cloud Security - 2">
+                                    </div>
+                                </div>
+                                <button class="next" onclick="nextSlideCert(9)">&#10095;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="slider-btn next" onclick="nextCertificateRow()">&#10095;</button>
+        </div>
+        
+        <!-- Pagination Dots -->
+        <div class="pagination-dots">
+            <span class="dot active" onclick="goToCertificateRow(0)"></span>
+            <span class="dot" onclick="goToCertificateRow(1)"></span>
+            <span class="dot" onclick="goToCertificateRow(2)"></span>
+            <span class="dot" onclick="goToCertificateRow(3)"></span>
+            <span class="dot" onclick="goToCertificateRow(4)"></span>
         </div>
     </div>
 </section>
-
-
-
-    
-    
-
     <!-- Contact -->
     <section id="contact">
         <div class="container">
@@ -187,13 +342,14 @@
             <div class="container1">
                 <a href="https://www.instagram.com/maulanaa.exe?igsh=NzBudzkwaTVjM216&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/maulana-abdul-fathah/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/Maulana60666"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/Maulana60666"><i class="fa-xzbrands fa-github"></i></a>
             </div>
             <div class="footerbottom">
                 <p>&copy; 2025 Maulana Abdul Fathah</p>
             </div>
         </div>
     </footer>
+
 
     <script src="js/script.js"></script>
 </body>
