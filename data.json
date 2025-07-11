@@ -106,11 +106,8 @@
       "liveUrl": "#",
       "codeUrl": "https://github.com/yourusername/secure-storage-system",
       "code": {
-<<<<<<< HEAD
         "filename": ".py",
-=======
         "filename": "server_monitor.py",
->>>>>>> 50cffdf50114fbb270af152f0ae75677bd1f597c
         "date": "coming soon",
         "content": "import coming soonn"
       }
@@ -119,11 +116,8 @@
       "title": "coming soon",
       "description": "coming soon.",
       "technologies": ["Python", "Nmap (via Subprocess)", "Socket Programming", "coming soong"],
-<<<<<<< HEAD
       "media": "https://www.yom/embed/dQw4w9WgXcQ",
-=======
       "media": "https://www.youtube.com/embed/dQw4w9WgXcQ",
->>>>>>> 50cffdf50114fbb270af152f0ae75677bd1f597c
       "mediaType": "video",
       "codeUrl": "https://github.com/yourusername/network-vulnerability-scanner"
     },
