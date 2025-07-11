@@ -1,0 +1,137 @@
+{
+  "skills": [
+    "Python",
+    "HTML/CSS",
+    "Linux Administration",
+    "Cybersecurity",
+    "Network Security",
+    "Penetration Testing",
+    "Git",
+    "SQL",
+    "Django",
+    "Flask",
+    "OWASP",
+    "Firewall Configuration",
+    "Ethical Hacking"
+  ],
+  "activities": [
+    {
+      "organization": "HIMTI UNPAB",
+      "organizationPeriod": "Jan 2025 - Present",
+      "title": "HIMTI Board Inauguration Ceremony",
+      "date": "13 Juni 2025",
+      "description": "Responsible for technical operations as part of the event committee, managing audio and projector systems to ensure smooth event execution.",
+      "images": ["1.jpg", "2.jpg", "3.jpg"]
+    },
+    {
+      "organization": "HIMTI UNPAB",
+      "organizationPeriod": "Jan 2025 - Present",
+      "title": "coming soon",
+      "date": "july 2025",
+      "description": "coming soon.",
+      "images": ["himti_pengmas1.jpg", "himti_pengmas2.jpg"]
+    },
+
+    {
+      "organization": "UPM - PKRKM (Unit Prestasi Mahasiswa)",
+      "organizationPeriod": "Juni 2025 - Present",
+      "title": "DIKLAT PRESTASI UPM PKRKM",
+      "date": "13 Juni 2025",
+      "description": "Participated in DIKLAT PRESTASI UPM PKRKM 2025, a training program focused on building a competitive mindset, organizational commitment, and preparation for academic competitions such as essay writing.",
+      "images": ["pkrkm1.jpg"]
+    },
+    {
+      "organization": "UPM - PKRKM (Unit Prestasi Mahasiswa)",
+      "organizationPeriod": "Juni 2025 - Present",
+      "title": "coming soon",
+      "date": " 2025",
+      "description": "coming soon.",
+      "images": ["p.jpg"]
+    }
+  ],
+  "certificates": [
+    {
+      "type": "course",
+      "title": "Fortinet Certified Associate in Cybersecurity",
+      "issuer": "Fortinet",
+      "date": "March 2025",
+      "image": "fortinet.jpg"
+    },
+    {
+      "type": "course",
+      "title": "Belajar Dasar AI",
+      "issuer": "Dicoding",
+      "date": "March 2025",
+      "image": "dicoding.jpg"
+    },
+    {
+      "type": "course",
+      "title": "coming soon",
+      "issuer": "coming soon",
+      "date": "coming soon 2025",
+      "image": "aws-cert.jpg"
+    },
+    {
+      "type": "competition",
+      "title": "DIKLAT PRESTASI UPM PKRKM",
+      "issuer": "UPM-PKRKM",
+      "date": "Juny 2025",
+      "achievement": "Best Participant",
+      "image": "diklat.png"
+    },
+    {
+      "type": "competition",
+      "title": "Coming soon CTF",
+      "issuer": "Coming soon",
+      "date": "Coming soon",
+      "achievement": "Coming soon",
+      "image": "htb-cert.jpg"
+    },
+    {
+      "type": "competition",
+      "title": "coming soon",
+      "issuer": "coming soon",
+      "date": "coming soon 2025",
+      "achievement": "1st",
+      "image": "google-ctf.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Scoming soon",
+      "description": "coming soon",
+      "technologies": ["Python", "Flask", "Linux", "Syslog", "Monitoring"],
+      "media": "secure-storage.jpg",
+      "mediaType": "image",
+      "liveUrl": "#",
+      "codeUrl": "https://github.com/yourusername/secure-storage-system",
+      "code": {
+        "filename": ".py",
+        "date": "coming soon",
+        "content": "import coming soonn"
+      }
+    },
+    {
+      "title": "coming soon",
+      "description": "coming soon.",
+      "technologies": ["Python", "Nmap (via Subprocess)", "Socket Programming", "coming soong"],
+      "media": "https://www.yom/embed/dQw4w9WgXcQ",
+      "mediaType": "video",
+      "codeUrl": "https://github.com/yourusername/network-vulnerability-scanner"
+    },
+    {
+      "title": "coming soon",
+      "description": "Mcoming soon",
+      "technologies": ["coming soon"],
+      "media": "password-manager.jpg",
+      "mediaType": "image",
+      "liveUrl": "#",
+      "codeUrl": "https://github.com/yourusername/secure-password-manager",
+      "code": {
+        "filename": "main.js",
+        "date": "2024-11-20",
+        "content": "coming soon"
+      }
+    }
+  ]
+}
